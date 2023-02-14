@@ -4,6 +4,8 @@ body{
 
 .container{
     border: 1px solid black;
+    margin: auto;
+    width: 65%;
 }
 
 #federal-blue{
@@ -147,4 +149,8 @@ h2{
 
 .paragraph{
     margin-left: 10px;
+}
+
+h1{
+    text-align: center;
 }
