@@ -1,3 +1,7 @@
+body{
+    margin: 0, auto;
+}
+
 .container{
     border: 1px solid black;
 }
@@ -48,19 +52,99 @@
     margin: 10px;
 }
 
-.style-container{
-    border: 1px solid black;
-    width: 15%;
-}
-
-.color-container{
-    border: 1px solid black;
-    display: block;
-    padding: 0, auto;
-    margin: 10px;
-    text-align: center;
-}
-
 h2{
+    margin-left: 10px;
+    text-align: left;
+}
+
+#style-roboto{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+#style-montserrat{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+#style-ubuntu{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    font-family: "Ubuntu";
+    font-size: 20px;
+}
+
+.regular{
+    margin-left: 10px;
+}
+
+.bold{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.italic{
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#roboto{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+#montserrat{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+#ubuntu{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    font-family: "Ubuntu";
+    font-size: 20px;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.subheading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.paragraph{
     margin-left: 10px;
 }
