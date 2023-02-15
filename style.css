@@ -1,31 +1,37 @@
 body{
     margin: 0, auto;
 }
+h1{
+    text-align: center;
+}
+h2{
+    margin-left: 10px;
+    text-align: left;
+}
 
+/*Containers*/
 .container{
     border: 1px solid black;
     margin: auto;
     width: 65%;
 }
-
 .color-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .font-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .style-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/*Items*/
 .color-item{
     width: 30%;
     display: inline-block;
@@ -33,7 +39,21 @@ body{
     border-radius: 10px;
     margin: 10px;
 }
+.font-item{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+.style-item{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
 
+/*Colors*/
 #federal-blue{
     background-color: #03045E;
 }
@@ -54,103 +74,64 @@ body{
     background-color: #CAF0F8;
 }
 
-h2{
-    margin-left: 10px;
-    text-align: left;
-}
-
+/*Fonts*/
 #style-roboto{
-    width: 30%;
-    display: inline-block;
-    border: 1px solid black;
-    margin: 10px;
     font-family: "Roboto";
-    font-size: 20px;
 }
-
 #style-montserrat{
-    width: 30%;
-    display: inline-block;
-    border: 1px solid black;
-    margin: 10px;
     font-family: "Montserrat";
-    font-size: 20px;
 }
-
 #style-ubuntu{
-    width: 30%;
-    display: inline-block;
-    border: 1px solid black;
-    margin: 10px;
     font-family: "Ubuntu";
-    font-size: 20px;
 }
 
-.regular{
-    margin-left: 10px;
-}
-
-.bold{
-    margin-left: 10px;
-    font-weight: bold;
-}
-
-.italic{
-    margin-left: 10px;
-    font-style: italic;
-}
-
+/*Font-Styling*/
 .title{
     text-align: center;
     font-size: 25px;
     text-decoration: underline;
     font-weight: bold;
 }
-
-#roboto{
-    width: 30%;
-    display: inline-block;
-    border: 1px solid black;
-    margin: 10px;
-    font-family: "Roboto";
-    font-size: 20px;
+.regular{
+    margin-left: 10px;
 }
-
-#montserrat{
-    width: 30%;
-    display: inline-block;
-    border: 1px solid black;
-    margin: 10px;
-    font-family: "Montserrat";
-    font-size: 20px;
+.bold{
+    margin-left: 10px;
+    font-weight: bold;
 }
-
-#ubuntu{
-    width: 30%;
-    display: inline-block;
-    border: 1px solid black;
-    margin: 10px;
-    font-family: "Ubuntu";
-    font-size: 20px;
+.italic{
+    margin-left: 10px;
+    font-style: italic;
 }
-
 .heading{
     font-size: 40px;
     font-weight: bold;
     text-decoration: underline;
     margin-left: 10px;
 }
-
 .subheading{
     font-size: 30px;
     font-weight: bold;
     margin-left: 10px;
 }
-
 .paragraph{
     margin-left: 10px;
 }
 
-h1{
+/*Display Styling*/
+#roboto, #montserrat, #ubuntu{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
     text-align: center;
+}
+#roboto{
+    font-family: "Roboto";
+}
+#montserrat{
+    font-family: "Montserrat";
+}
+#ubuntu{
+    font-family: "Ubuntu";
 }
